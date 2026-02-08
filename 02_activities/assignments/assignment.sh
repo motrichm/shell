@@ -55,6 +55,8 @@ cp  /e/DeployingAIMicrocredential/shell/02_activities/assignments/newproject/dat
 # 6. Repeat the above step for user logs and event logs
 
 cp  /e/DeployingAIMicrocredential/shell/02_activities/assignments/newproject/data/raw/*user*.log /e/DeployingAIMicrocredential/shell/02_activities/assignments/newproject/data/processed/user_logs/
+cp  /e/DeployingAIMicrocredential/shell/02_activities/assignments/newproject/data/raw/*event*.log /e/DeployingAIMicrocredential/shell/02_activities/assignments/newproject/data/processed/event_logs/
+
 
 # 7. For user privacy, remove all files containing IP addresses (files with "ipaddr" in the filename) from ./data/raw and ./data/processed/user_logs
 
