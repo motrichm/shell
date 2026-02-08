@@ -49,7 +49,7 @@ mkdir user_logs
 mkdir event_logs
 
 # 5. Copy all server log files (files with "server" in the name AND a .log extension) from ./data/raw to ./data/processed/server_logs
-
+#one more change
 cp  /e/DeployingAIMicrocredential/shell/02_activities/assignments/newproject/data/raw/server*.log /e/DeployingAIMicrocredential/shell/02_activities/assignments/newproject/data/processed/server_logs/
 
 # 6. Repeat the above step for user logs and event logs
